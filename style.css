@@ -1,17 +1,93 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-body{
-    background-color: #eee;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+body {
+  background-color: #eee;
 }
-p {
-    border: 1px solid black;
-    margin: 0 auto;
-    padding: 10px;
-    width: 80%;
-    color: hotpink;
-    background-color: crimson;
-  }
+#topBar {
+  background-color: #fff;
+  height: 25px;
+  width: 100%;
+  box-shadow: 1px 1px 1px 1px rgba(211, 211, 211, 0.753);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 13px;
+  padding: 0 20px;
+  box-shadow: white;
+}
+nav {
+  height: 50px;
+}
+.navbar-brand img {
+  width: 130px;
+  height: 50px;
+  object-fit: cover;
+  margin-left: 20px;
+}
+#navbarSupportedContent > ul li {
+  margin-left: 50px;
+  padding: 0px 0px 0px 0px;
+}
+li:hover {
+  background-color: #fed250;
+}
+.navbar-nav ul li a:hover {
+  background-color: #fed250;
+}
+.dropdown:hover {
+  background-color: #fed250;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin: 0;
+}
+#rnav > ul {
+  display: flex;
+  list-style: none;
+}
+#rnav > ul > li {
+  margin-left: 10px;
+}
+#ban {
+  position: absolute;
+  right: 200px;
+  top: 6px;
+  width: 130px;
+}
+#search {
+  text-decoration: none;
+  color: black;
+}
+.searchicon {
+  margin-top: 10px;
+}
+#login {
+  position: absolute;
+  right: 100px;
+  top: 6px;
+  border: none;
+}
+#signup {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+}
+.bars {
+  color: black;
+}
+.navbar-nav > li {
+  padding: 0px 20px;
+}
+#sliderBlock .jumbotron {
+  background-image: url("../images/background.jpg");
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: 60%;
+}
+.btn-warning {
+  background-color: #fed250;
+}
